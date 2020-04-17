@@ -1,8 +1,10 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
+ReleaseVaultGUID=
+ReleaseVaultName=
 ChannelDesignatorFormatString=$Component_$ChannelName
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
@@ -26,19 +28,19 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-FSMCodingStyle=eFMSDropDownList_OneProcess
-FSMEncodingStyle=eFMSDropDownList_OneHot
+ForceUpdateCount=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
+StorageID=
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=ECG_BLE.SchLib
+DocumentPath=Block Diagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -52,9 +54,26 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=JQNLBFRH
+DocumentUniqueId=FCLNYJPJ
 
 [Document2]
+DocumentPath=AD8232 & TMP136.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RNVMPSJK
+
+[Document3]
 DocumentPath=nRF52840.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,41 +90,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CARAYLYD
 
-[Document3]
-DocumentPath=C:\Users\Sandeep\Desktop\Master_ Library\Master_ Library.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [Document4]
-DocumentPath=AD8232 & TMP136.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RNVMPSJK
-
-[Document5]
 DocumentPath=USB & Battery Charging.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +107,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DAXTSUDJ
 
-[Document6]
+[Document5]
 DocumentPath=ECG_BLE.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,14 +124,49 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QXLQPLKC
 
+[Document6]
+DocumentPath=ECG_BLE.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JQNLBFRH
+
+[Document7]
+DocumentPath=ECG_BLE.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ULVNALEL
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
+CurrentRevision=
 Variant=[No Variations]
+GenerateBOM=1
 OutputJobsCount=0
-ContentTypeGUID=
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -191,129 +211,24 @@ OutputDir=
 Name=Netlist Outputs
 Description=
 TargetPrinter=HP LaserJet Professional M1136 MFP
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=EDIF
 OutputName1=EDIF for PCB
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=CadnetixNetlist
-OutputName2=Cadnetix Netlist
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=CalayNetlist
-OutputName3=Calay Netlist
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-OutputType4=EESofNetlist
-OutputName4=EESof Netlist
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-OutputType5=IntergraphNetlist
-OutputName5=Intergraph Netlist
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-OutputType6=MentorBoardStationNetlist
-OutputName6=Mentor BoardStation Netlist
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-OutputType7=MultiWire
-OutputName7=MultiWire
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=OrCadPCB2Netlist
-OutputName8=Orcad/PCB2 Netlist
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=PADSNetlist
-OutputName9=PADS ASCII Netlist
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-OutputType10=Pcad
-OutputName10=Pcad for PCB
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=PCADNetlist
-OutputName11=PCAD Netlist
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=PCADnltNetlist
-OutputName12=PCADnlt Netlist
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Protel2Netlist
-OutputName13=Protel2 Netlist
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=ProtelNetlist
-OutputName14=Protel
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=RacalNetlist
-OutputName15=Racal Netlist
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=RINFNetlist
-OutputName16=RINF Netlist
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SciCardsNetlist
-OutputName17=SciCards Netlist
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=TangoNetlist
-OutputName18=Tango Netlist
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-OutputType19=TelesisNetlist
-OutputName19=Telesis Netlist
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-OutputType20=WireListNetlist
-OutputName20=WireList Netlist
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=HP LaserJet Professional M1136 MFP
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
 TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
@@ -380,18 +295,12 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=PCBDrawing
-OutputName12=Draftsman
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
 TargetPrinter=HP LaserJet Professional M1136 MFP
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
 OutputDocumentPath1=
@@ -403,23 +312,17 @@ OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
-OutputDocumentPath3=
-OutputVariantName3=[No Variations]
-OutputDefault3=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
 TargetPrinter=HP LaserJet Professional M1136 MFP
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType2=CompositeDrill
 OutputName2=Composite Drill Drawing
 OutputDocumentPath2=
@@ -465,27 +368,12 @@ OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Gerber X2
-OutputName10=Gerber X2 Files
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=IPC2581
-OutputName11=IPC-2581 Files
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Test Points
-OutputName12=Test Point Report
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
 TargetPrinter=HP LaserJet Professional M1136 MFP
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
 OutputDocumentPath1=
@@ -512,17 +400,12 @@ OutputName5=Report Single Pin Nets
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=Script
-OutputName6=Script Output
-OutputDocumentPath6=
-OutputVariantName6=[No Variations]
-OutputDefault6=0
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
 TargetPrinter=HP LaserJet Professional M1136 MFP
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
 OutputDocumentPath1=
@@ -702,7 +585,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 Name=Validation Outputs
 Description=
 TargetPrinter=HP LaserJet Professional M1136 MFP
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
 OutputDocumentPath1=
@@ -731,72 +614,16 @@ OutputName5=Footprint Comparison Report
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=Component states check
-OutputName6=Vault's components states check
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
 
 [OutputGroup9]
 Name=Export Outputs
 Description=
 TargetPrinter=HP LaserJet Professional M1136 MFP
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
-OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf PCB
-OutputName2=AutoCAD dwg/dxf File PCB
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=AutoCAD dwg/dxf Schematic
-OutputName3=AutoCAD dwg/dxf File Schematic
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-OutputType4=ExportIDF
-OutputName4=Export IDF
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-OutputType5=ExportPARASOLID
-OutputName5=Export PARASOLID
-OutputDocumentPath5=
-OutputVariantName5=[No Variations]
-OutputDefault5=0
-OutputType6=ExportVRML
-OutputName6=Export VRML
-OutputDocumentPath6=
-OutputVariantName6=[No Variations]
-OutputDefault6=0
-OutputType7=Save As/Export PCB
-OutputName7=Save As/Export PCB
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=Save As/Export Schematic
-OutputName8=Save As/Export Schematic
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=Specctra Design PCB
-OutputName9=Specctra Design PCB
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-
-[OutputGroup10]
-Name=PostProcess Outputs
-Description=
-TargetPrinter=HP LaserJet Professional M1136 MFP
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Copy Files
-OutputName1=Copy Files
-OutputDocumentPath1=
-OutputVariantName1=
 OutputDefault1=0
 
 [Modification Levels]
@@ -878,18 +705,6 @@ Type75=1
 Type76=1
 Type77=1
 Type78=1
-Type79=1
-Type80=1
-Type81=1
-Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
-Type87=1
-Type88=1
-Type89=1
-Type90=1
 
 [Difference Levels]
 Type1=1
@@ -935,12 +750,6 @@ Type40=1
 Type41=1
 Type42=1
 Type43=1
-Type44=0
-Type45=1
-Type46=1
-Type47=1
-Type48=1
-Type49=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1056,6 +865,10 @@ Type110=3
 Type111=3
 Type112=3
 Type113=3
+Type114=3
+Type115=1
+Type116=1
+Type117=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1094,7 +907,6 @@ NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
 NetClassAutoNamedHarnessEnabled=0
 NetClassManualEnabled=1
-NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
 SelectedOnly=0
