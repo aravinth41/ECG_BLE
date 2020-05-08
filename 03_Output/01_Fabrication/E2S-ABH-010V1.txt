@@ -1,0 +1,119 @@
+Altium Designer Pick and Place Locations
+F:\Aravinth\2020\BLE-ECG\OUTPUT-JOBS\11_FABRICATION\E2S-ABH-010V1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       08/05/20
+Time:       21:52
+Revision:   0
+Variant:    No variations
+Units used: mm
+
+Designator Comment                                                  Layer       Footprint                               Center-X(mm) Center-Y(mm) Rotation Description                                       
+SW1        SWITCH SLIDE SPDT 200MA 12V                              TopLayer    SWITCH_CLSB12A11T                       -21.565mm    2.438mm      270      SWITCH SLIDE SPDT 200MA 12V                       
+OUT        TEST POINT                                               TopLayer    TP_40X40                                -2.134mm     14.122mm     270      TEST POINT                                        
+MH1        Mounting hole                                            TopLayer    MH_2P2MM_3P6KP                          10.897mm     19.202mm     180      Mounting hole                                     
+MH2        Mounting hole                                            TopLayer    MH_2P2MM_3P6KP                          5.918mm      -21.082mm    180      Mounting hole                                     
+LOD-       TEST POINT                                               TopLayer    TP_40X40                                -5.893mm     15.240mm     270      TEST POINT                                        
+LOD+       TEST POINT                                               TopLayer    TP_40X40                                -5.969mm     16.713mm     270      TEST POINT                                        
+GND        TEST POINT                                               TopLayer    TP_40X40                                -7.772mm     -3.988mm     270      TEST POINT                                        
+GND        TEST POINT                                               TopLayer    TP_40X40                                15.646mm     -6.909mm     270      TEST POINT                                        
+FID4       FID40X40                                                 TopLayer    FID40X40                                6.502mm      21.590mm     270      FID40X40                                          
+FID3       FID40X40                                                 TopLayer    FID40X40                                -0.025mm     -15.443mm    270      FID40X40                                          
+FID2       FID40X40                                                 BottomLayer FID40X40                                12.827mm     16.104mm     270      FID40X40                                          
+FID1       FID40X40                                                 BottomLayer FID40X40                                8.052mm      -13.487mm    270      FID40X40                                          
++3V3       TEST POINT                                               TopLayer    TP_40X40                                -10.287mm    1.676mm      270      TEST POINT                                        
+C18        CAP CER 100PF 25V X7RCAP CER 100PF 25V C0G/NP0 0402 0402 TopLayer    SMDC0402                                12.628mm     4.116mm      360      CAP CER 100PF 25V C0G/NP0 0402                    
+TP3        Electrode point                                          BottomLayer ELE-MH-6X8MM                            0.000mm      -25.000mm    0        Electrode point                                   
+TP2        Electrode point                                          BottomLayer ELE-MH-6X8MM                            -18.900mm    15.900mm     0        Electrode point                                   
+TP1        Electrode point                                          BottomLayer ELE-MH-6X8MM                            18.900mm     15.900mm     0        Electrode point                                   
+R39        RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                6.071mm      -17.247mm    270      RES SMD 0.0OHM JUMPER 1/10W 0402                  
+R37        RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                -11.049mm    15.799mm     90       RES SMD 0.0OHM JUMPER 1/10W 0402                  
+R36        RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                -15.392mm    6.477mm      180      RES SMD 0.0OHM JUMPER 1/10W 0402                  
+U5         SENSOR ANALOG -40C-125C TO92-3                           BottomLayer TO-226-AA                               -0.584mm     21.565mm     360      SENSOR ANALOG -40C-125C TO92-3                    
+R35        RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                4.169mm      10.871mm     90       RES SMD 0.0OHM JUMPER 1/10W 0402                  
+R34        RES SMD 10K OHM 0.5% 1/16W 0402                          BottomLayer SMDR0402                                -0.343mm     18.059mm     360      RES SMD 10K OHM 0.5% 1/16W 0402                   
+R33        RES 45.3K OHM 0.5% 1/16W 0402                            BottomLayer SMDR0402                                1.816mm      18.059mm     360      RES 45.3K OHM 0.5% 1/16W 0402                     
+C35        CAP CER 0.1UF 16V X7R 0402                               BottomLayer SMDC0402                                -5.334mm     21.285mm     270      CAP CER 0.1UF 16V X7R 0402                        
+C34        CAP CER 2.2UF 10V JB 0402                                BottomLayer SMDC0402                                -6.858mm     21.285mm     270      CAP CER 2.2UF 10V JB 0402                         
+U3         1.6A LINEAR LI-ION CHGR 10TDFN                           TopLayer    SON40P220X220x80_HS-11N                 -8.204mm     -11.405mm    90       1.6A LINEAR LI-ION CHGR 10TDFN                    
+R32        RES SMD 1K OHM 1% 1/10W 0402                             TopLayer    SMDR0402                                -6.985mm     19.152mm     180      RES SMD 1K OHM 1% 1/10W 0402                      
+R31        RES SMD 470 OHM 1% 1/10W 0402                            TopLayer    SMDR0402                                3.556mm      -3.988mm     270      RES SMD 470 OHM 1% 1/10W 0402                     
+L1         FIXED IND 3.9NH 170MA 500 MOHM                           TopLayer    SMDL0402                                12.525mm     2.218mm      360      FIXED IND 3.9NH 170MA 500 MOHM                    
+D4         LED GREEN CLEAR SMD                                      TopLayer    SMDLED0603                              -4.415mm     18.401mm     180      LED GREEN CLEAR SMD                               
+D3         LED BLUE CLEAR 2SMD                                      TopLayer    SMDLED0603                              5.105mm      18.401mm     180      LED BLUE CLEAR 2SMD                               
+C26        CAP CER 4.7UF 6.3V X5R 0402                              TopLayer    SMDC0402                                10.266mm     -2.615mm     180      CAP CER 4.7UF 6.3V X5R 0402                       
+C3         CAP CER 1000PF 50V X7R 0402                              TopLayer    SMDC0402                                -6.502mm     8.585mm      180      CAP CER 1000PF 50V X7R 0402                       
+Y1         CRYSTAL 32.7680KHZ 12.5PF SMD                            TopLayer    XTAL325X155X80N                         -1.372mm     2.799mm      270      CRYSTAL 32.7680KHZ 12.5PF SMD                     
+X1         CRYSTAL 32.0000MHZ 8PF SMD                               TopLayer    XTAL200X160X50-4N                       10.693mm     8.179mm      180      CRYSTAL 32.0000MHZ 8PF SMD                        
+U4         IC REG LINEAR 3.3V 150MA SOT23-5                         TopLayer    SOT95P350X145-5N                        -11.471mm    -3.487mm     360      IC REG LINEAR 3.3V 150MA SOT23-5                  
+R30        RES SMD 100K OHM 1% 1/10W 0402                           TopLayer    SMDRC0402                               -14.326mm    -5.512mm     270      RES SMD 100K OHM 1% 1/10W 0402                    
+R29        RES SMD 13.3K OHM 1% 1/10W 0402                          TopLayer    SMDR0402                                -6.223mm     -7.658mm     360      RES SMD 13.3K OHM 1% 1/10W 0402                   
+R28        RES SMD 16.5K OHM 1% 1/10W 0402                          TopLayer    SMDR0402                                -6.223mm     -9.068mm     180      RES SMD 16.5K OHM 1% 1/10W 0402                   
+R27        RES SMD 10K OHM 1% 1/10W 0402                            TopLayer    SMDR0402                                -8.941mm     -6.248mm     90       RES SMD 10K OHM 1% 1/10W 0402                     
+R26        RES SMD 1.5K OHM 1% 1/10W 0402                           TopLayer    SMDR0402                                -7.696mm     -15.011mm    270      RES SMD 1.5K OHM 1% 1/10W 0402                    
+R25        RES SMD 1.5K OHM 1% 1/10W 0402                           TopLayer    SMDR0402                                -9.093mm     -15.037mm    270      RES SMD 1.5K OHM 1% 1/10W 0402                    
+R24        RES SMD 10K OHM 1% 1/10W 0402                            TopLayer    SMDR0402                                -7.518mm     -6.248mm     270      RES SMD 10K OHM 1% 1/10W 0402                     
+R23        RES SMD 100K OHM 1% 1/10W 0402                           TopLayer    SMDRC0402                               -6.325mm     -13.843mm    180      RES SMD 100K OHM 1% 1/10W 0402                    
+R22        RES SMD 4.7K OHM 5% 1/10W 0402                           TopLayer    SMDR0402                                10.214mm     -4.267mm     180      RES SMD 4.7K OHM 5% 1/10W 0402                    
+R21        RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                -0.403mm     -1.194mm     270      RES SMD 0.0OHM JUMPER 1/10W 0402                  
+R20        RES SMD 1M OHM 1% 1/10W 0402                             TopLayer    SMDR0402                                -4.953mm     13.665mm     90       RES SMD 1M OHM 1% 1/10W 0402                      
+R19        RES SMD 10K OHM 1% 1/10W 0402                            TopLayer    SMDR0402                                -8.280mm     16.510mm     270      RES SMD 10K OHM 1% 1/10W 0402                     
+R18        RES SMD 100K OHM 1% 1/10W 0402                           TopLayer    SMDRC0402                               -4.953mm     11.951mm     90       RES SMD 100K OHM 1% 1/10W 0402                    
+R17        RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                -9.677mm     16.510mm     90       RES SMD 0.0OHM JUMPER 1/10W 0402                  
+R16        RES SMD 1M OHM 1% 1/10W 0402                             TopLayer    SMDR0402                                -3.708mm     10.363mm     90       RES SMD 1M OHM 1% 1/10W 0402                      
+R15        RES SMD 1M OHM 1% 1/10W 0402                             TopLayer    SMDR0402                                -2.692mm     11.887mm     180      RES SMD 1M OHM 1% 1/10W 0402                      
+R14        RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                -6.553mm     5.004mm      90       RES SMD 0.0OHM JUMPER 1/10W 0402                  
+R13        RES SMD 360K OHM 1% 1/10W 0402                           TopLayer    SMDR0402                                -6.045mm     6.858mm      90       RES SMD 360K OHM 1% 1/10W 0402                    
+R12        RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                -8.052mm     5.004mm      90       RES SMD 0.0OHM JUMPER 1/10W 0402                  
+R11        RES SMD 10M OHM 5% 1/10W 0402                            TopLayer    SMDR0402                                -14.821mm    10.638mm     90       RES SMD 10M OHM 5% 1/10W 0402                     
+R10        RES SMD 180K OHM 1% 1/16W 0402                           TopLayer    SMDR0402                                -8.382mm     7.112mm      90       RES SMD 180K OHM 1% 1/16W 0402                    
+R9         RES SMD 10M OHM 5% 1/10W 0402                            TopLayer    SMDR0402                                -16.104mm    10.643mm     270      RES SMD 10M OHM 5% 1/10W 0402                     
+R8         RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                -9.449mm     5.004mm      90       RES SMD 0.0OHM JUMPER 1/10W 0402                  
+R7         RES SMD 180K OHM 1% 1/16W 0402                           TopLayer    SMDR0402                                -9.855mm     7.061mm      90       RES SMD 180K OHM 1% 1/16W 0402                    
+R6         RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                -10.897mm    4.978mm      90       RES SMD 0.0OHM JUMPER 1/10W 0402                  
+R5         RES SMD 10M OHM 5% 1/10W 0402                            TopLayer    SMDR0402                                -13.201mm    10.693mm     360      RES SMD 10M OHM 5% 1/10W 0402                     
+R4         RES SMD 10M OHM 5% 1/10W 0402                            TopLayer    SMDR0402                                -13.386mm    9.296mm      360      RES SMD 10M OHM 5% 1/10W 0402                     
+R3         RES SMD 10M OHM 5% 1/10W 0402                            TopLayer    SMDR0402                                -12.294mm    4.953mm      270      RES SMD 10M OHM 5% 1/10W 0402                     
+R2         RES SMD 10M OHM 5% 1/10W 0402                            TopLayer    SMDR0402                                -11.455mm    6.604mm      180      RES SMD 10M OHM 5% 1/10W 0402                     
+R1         RES 1.4M OHM 1% 1/16W 0402                               TopLayer    SMDR0402                                -14.503mm    8.052mm      180      RES 1.4M OHM 1% 1/16W 0402                        
+J3         CONN USB MICRO B RECPT SMT R/A                           TopLayer    USB_MICRO_B_10118194-0001LF             -16.291mm    -14.359mm    309      CONN USB MICRO B RECPT SMT R/A                    
+J1         J-LINK 6-PIN NEEDLE ADAPTER                              TopLayer    PRG_8.06.16_J-LINK_6-PIN_NEEDLE_ADAPTER 14.372mm     -14.263mm    45       J-LINK 6-PIN NEEDLE ADAPTER                       
+D1         LED GREEN/RED CLEAR 1204 SMD R/A                         TopLayer    LED-SM1204BC                            -9.552mm     -21.196mm    240      LED GREEN/RED CLEAR 1204 SMD R/A                  
+C32        CAP CER 1.5PF 50V NP0 0402                               TopLayer    SMDC0402                                17.700mm     2.667mm      270      CAP CER 1.5PF 50V NP0 0402                        
+C30        CAP CER 1UF 16V X5R 0402                                 TopLayer    SMDC0402                                -11.938mm    -6.352mm     180      CAP CER 1UF 16V X5R 0402                          
+C29        CAP CER 0.1UF 16V X7R 0402                               TopLayer    SMDC0402                                -6.325mm     -10.643mm    90       CAP CER 0.1UF 16V X7R 0402                        
+C28        CAP CER 10UF 10V X5R 0402                                TopLayer    SMDC0402                                -9.906mm     -9.296mm     90       CAP CER 10UF 10V X5R 0402                         
+C27        CAP CER 10UF 10V X5R 0402                                TopLayer    SMDC0402                                -10.541mm    -12.395mm    180      CAP CER 10UF 10V X5R 0402                         
+C25        CAP CER 0.1UF 16V X7R 0402                               TopLayer    SMDC0402                                5.516mm      -3.504mm     90       CAP CER 0.1UF 16V X7R 0402                        
+C24        CAP CER 0.1UF 16V X7R 0402                               TopLayer    SMDC0402                                8.025mm      -3.529mm     90       CAP CER 0.1UF 16V X7R 0402                        
+C23        CAP CER 4.7UF 6.3V X5R 0402                              TopLayer    SMDC0402                                0.791mm      -2.412mm     90       CAP CER 4.7UF 6.3V X5R 0402                       
+C22        CAP CER 4.7UF 6.3V X5R 0402                              TopLayer    SMDC0402                                -1.800mm     -1.212mm     90       CAP CER 4.7UF 6.3V X5R 0402                       
+C21        CAP CER 820PF 50V C0G/NP0 0402                           TopLayer    SMDC0402                                10.541mm     0.102mm      180      CAP CER 820PF 50V C0G/NP0 0402                    
+C20        CAP CER 1PF 50V C0G/NP0 0402                             TopLayer    SMDC0402                                14.227mm     2.667mm      270      CAP CER 1PF 50V C0G/NP0 0402                      
+C19        CAP CER 1PF 50V C0G/NP0 0402                             TopLayer    SMDC0402                                10.596mm     2.668mm      270      CAP CER 1PF 50V C0G/NP0 0402                      
+C17        CAP CER 12PF 50V C0G/NP0 0402                            TopLayer    SMDC0402                                -3.378mm     2.037mm      270      CAP CER 12PF 50V C0G/NP0 0402                     
+C16        CAP CER 100PF 25V X7RCAP CER 100PF 25V C0G/NP0 0402 0402 TopLayer    SMDC0402                                12.628mm     5.488mm      360      CAP CER 100PF 25V C0G/NP0 0402                    
+C15        CAP CER 12PF 50V C0G/NP0 0402                            TopLayer    SMDC0402                                -3.353mm     4.501mm      270      CAP CER 12PF 50V C0G/NP0 0402                     
+C14        CAP CER 12PF 50V C0G/NP0 0402                            TopLayer    SMDC0402                                8.407mm      8.077mm      270      CAP CER 12PF 50V C0G/NP0 0402                     
+C13        CAP CER 12PF 50V C0G/NP0 0402                            TopLayer    SMDC0402                                13.259mm     8.331mm      90       CAP CER 12PF 50V C0G/NP0 0402                     
+C11        CAP CER 0.1UF 16V X7R 0402                               TopLayer    SMDC0402                                7.163mm      6.604mm      270      CAP CER 0.1UF 16V X7R 0402                        
+C10        CAP CER 1UF 16V X5R 0402                                 TopLayer    SMDC0402                                2.007mm      6.121mm      270      CAP CER 1UF 16V X5R 0402                          
+C9         CAP CER 1UF 16V X5R 0402                                 TopLayer    SMDC0402                                3.661mm      7.417mm      270      CAP CER 1UF 16V X5R 0402                          
+C8         CAP CER 100PF 25V X7RCAP CER 100PF 25V C0G/NP0 0402 0402 TopLayer    SMDC0402                                5.694mm      7.139mm      90       CAP CER 100PF 25V C0G/NP0 0402                    
+C7         CAP CER 1500PF 50V X7R 0402                              TopLayer    SMDC0402                                -3.581mm     13.665mm     270      CAP CER 1500PF 50V X7R 0402                       
+C6         CAP CER 10000PF 50V X7R 0402                             TopLayer    SMDCC0402                               -4.928mm     10.351mm     270      CAP CER 10000PF 50V X7R 0402                      
+C5         CAP CER 0.1UF 16V X7R 0402                               TopLayer    SMDC0402                                -11.913mm    13.741mm     270      CAP CER 0.1UF 16V X7R 0402                        
+C4         CAP CER 0.1UF 16V X7R 0402                               TopLayer    SMDC0402                                -13.716mm    12.294mm     270      CAP CER 0.1UF 16V X7R 0402                        
+C2         CAP CER 0.33UF 10V X5R 0402                              TopLayer    SMDC0402                                -11.709mm    8.992mm      90       CAP CER 0.33UF 10V X5R 0402                       
+C1         CAP CER 0.33UF 10V X5R 0402                              TopLayer    SMDC0402                                -16.535mm    8.462mm      180      CAP CER 0.33UF 10V X5R 0402                       
+J2         CONN HOUSING PH 2POS 2MM WHITE                           BottomLayer SHDRRA2W70P0_200_1X2_590X790X550P       -18.231mm    -7.830mm     360      CONN HOUSING PH 2POS 2MM WHITE                    
+C12        CAP CER 0.1UF 16V X7R 0402                               TopLayer    SMDC0402                                0.000mm      6.375mm      270      CAP CER 0.1UF 16V X7R 0402                        
+U1         Analog Front End - AFE ECG and HRM IC Single Lead        TopLayer    QFN50P400X400X80_HS-21N                 -8.865mm     11.862mm     90       Analog Front End - AFE ECG and HRM IC Single Lead 
+LA         Test Point- 1.02mm Hole, 1.52mm Round Pad                TopLayer    TP_1.02X1.52MM_TH                       14.275mm     11.100mm     180      Test Point- 1.02mm Hole, 1.52mm Round Pad         
+R38        RES SMD 0.0OHM JUMPER 1/10W 0402                         TopLayer    SMDR0402                                15.871mm     2.217mm      360      RES SMD 0.0OHM JUMPER 1/10W 0402                  
+RA         Test Point- 1.02mm Hole, 1.52mm Round Pad                BottomLayer TP_1.02X1.52MM_TH                       -21.234mm    8.001mm      0        Test Point- 1.02mm Hole, 1.52mm Round Pad         
+RL         Test Point- 1.02mm Hole, 1.52mm Round Pad                BottomLayer TP_1.02X1.52MM_TH                       0.000mm      -18.593mm    0        Test Point- 1.02mm Hole, 1.52mm Round Pad         
+U2         IC RF TXRX+MCU 802.15.4 73VFQFN                          TopLayer    AQFN50P700X700X85_HS-74N                5.277mm      1.219mm      360      IC RF TXRX+MCU 802.15.4 73VFQFN                   
+C31        CAP CER 1UF 16V X5R 0402                                 TopLayer    SMDC0402                                -12.929mm    -0.838mm     360      CAP CER 1UF 16V X5R 0402                          

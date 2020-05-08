@@ -1,0 +1,20 @@
+DRC Rules Export File for PCB: F:\Aravinth\2020\BLE-ECG\ECG_BLE.PcbDoc
+RuleKind=Width|RuleName=RF-SIGNALS|Scope=Board|Minimum=5.71
+RuleKind=Clearance|RuleName=USB|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=NRF-IC|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=KEEPOUT-CL|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=HRM|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=XTAL|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Heart-Rate-Monitor|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Temp|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=EL|Scope=Board|Minimum=5.71
+RuleKind=Clearance|RuleName=ANTENNA|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=POWER|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=SWDIO|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=nRF_RESET|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=LDO-|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=NetR26_1|Scope=Board|Minimum=10.00

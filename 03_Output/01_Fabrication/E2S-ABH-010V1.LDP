@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: F:\Aravinth\2020\BLE-ECG\ECG_BLE.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=e2s-abh-010v1-roundholes-plated.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=e2s-abh-010v1-slotholes-plated.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=e2s-abh-010v1-roundholes-nonplated.txt|DrillLayers=gtl,gp1,gp2,gbl

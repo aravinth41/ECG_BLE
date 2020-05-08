@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [ECG_BLE.PcbDoc]
+   Generated File[E2S-ABH-010V1.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:53:13 PM On 5/8/2020
